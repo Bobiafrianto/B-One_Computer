@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,4 +129,136 @@
     </footer>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Us</a>
+                <a href="courses.html">Courses</a>
+                <a href="faqs.html">FAQs</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">Program apa saja yang ada di B-One Computer?</button>
+            <div class="faq-answer">
+                Program kami terdiri dari berbagai pelatihan dasar yang dirancang untuk membekali 
+                peserta dengan keterampilan praktis di dunia kerja. Materi yang diajarkan mencakup 
+                penggunaan Microsoft Office, desain grafis, pengolahan gambar menggunakan Adobe Photoshop 
+                dan CorelDRAW, serta pengenalan Adobe Illustrator. Selain itu, peserta juga akan mempelajari 
+                dasar-dasar jaringan menggunakan Mikrotik dan keterampilan merakit komputer.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Apa keunggulan kursus di B-One Computer?</button>
+            <div class="faq-answer">
+                Kursus di B-One Computer memberikan keuntungan berupa materi yang lengkap dan 
+                update sesuai kebutuhan industri, pengajar berpengalaman, serta fasilitas belajar 
+                yang nyaman dengan dukungan komputer dan software asli. Selain itu, kelasnya fleksibel, 
+                ada praktik langsung dengan project nyata, sertifikat resmi setelah selesai, dan bimbingan 
+                karir untuk membantu peserta siap bekerja atau berwirausaha di bidang IT.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Mengapa harus kursus di B-One Computer</button>
+            <div class="faq-answer">
+                Belajar di B-One Computer merupakan pilihan tepat karena mereka menawarkan 
+                materi pelatihan yang up-to-date sesuai kebutuhan industri, dibimbing oleh 
+                pengajar berpengalaman, serta didukung fasilitas lengkap. Kursusnya fleksibel, 
+                bisa online atau offline, dan setiap peserta akan mendapatkan sertifikat resmi. 
+                Selain itu, B-One juga menyediakan bimbingan praktik dan project nyata, serta 
+                kemudahan pendaftaran melalui WhatsApp, menjadikannya tempat belajar yang praktis, 
+                profesional, dan terpercaya.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Bagaimana cara mendaftar kursus?</button>
+            <div class="faq-answer">
+                Untuk memilih kelas di B-One Computer, kamu bisa mulai dengan lalu klik tab "Courses". 
+                Di sana, pilih kursus yang kamu inginkan, dan akan muncul deskripsi lengkap mengenai materi, 
+                durasi, dan manfaat kursus tersebut. Jika sudah cocok, klik tombol "Daftar" yang akan langsung 
+                menghubungkan kamu ke WhatsApp admin untuk proses pendaftaran lebih lanjut.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Apa fasilitas yang kami dapat?</button>
+            <div class="faq-answer">
+                Kamu akan mendapatkan akses ke video pembelajaran, materi yang dapat diunduh, 
+                forum diskusi, sesi mentoring langsung, sertifikat, dan komunitas belajar yang 
+                suportif.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                question.classList.toggle('active');
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <img src="img/logo.png" alt="Logo" class="footer-logo" />
+                <p>Platform edukasi terbaik untuk membangun keterampilan masa depan dengan teknologi dan kurikulum STEM
+                    terkini.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Kontak</h3>
+                <p>Email: b1computer@gmail.com</p>
+                <p>Telepon: +62 822 8364 2511</p>
+                <p>Alamat: Perumahan Villa Panam Jl. Melur, Sidomulyo Barat, Tampan, Pekanbaru City, Riau 28294</p>
+            </div>
+
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons">
+                    <a href="https://ww.facebook.com/kursuskoputerpekanbaru"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
+                    <a href="https://www.instagram.com/b1comp/"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" /></a>
+                    <a href="https://wa.me/6282283642511"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="WhatsApp" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 B-One Computer. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+>>>>>>> c09616e (first init github)
 </html>

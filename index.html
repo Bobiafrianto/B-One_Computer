@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Us</a>
+                <a href="courses.html">Courses</a>
+                <a href="faqs.html">FAQs</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="img/banner1.png" alt="">
+        </section>
+
+
+        <section class="section-kelas">
+            <h2>Kursus Yang <span style="color: #fcbf49;">Banyak </span>Diminati <span style="color: #fcbf49;">
+                    Saat Ini</span></h2>
+            <p>Dapatkan kursus terbaik dengan mentor yang berpengalaman dan harga yang terjangkau</p>
+
+            <div class="card-container">
+                <div class="card">
+                    <a href="https://wa.me/p/5116304498488139/6282283642511"><img src="img/post1.png" /></a>
+                </div>
+                <div class="card">
+                    <a href="https://wa.me/p/5535636126447405/6282283642511"><img src="img/post2.png" /></a>
+                </div>
+                <div class="card">
+                    <a href="https://wa.me/p/5321259321268191/6282283642511"><img src="img/post3.png" /></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <h2>Kenapa Memilih <span class="highlight">Kami?</span></h2>
+            <p class="subtitle">Kami berkomitmen memberikan pelatihan komputer terbaik untuk membantu Anda siap
+                menghadapi dunia kerja dengan percaya diri.</p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <img src="https://img.icons8.com/ios-filled/100/training.png" alt="Experienced Instructors Icon">
+                    <h3>Instruktur Berpengalaman</h3>
+                    <p>
+                        Belajar langsung dari para ahli. Tim pengajar kami terdiri dari profesional berpengalaman di
+                        industri dan akademisi yang siap membimbingmu dengan pendekatan praktis dan terkini.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <img src="https://img.icons8.com/ios-filled/100/star.png" alt="Premium Quality Icon">
+                    <h3>Kelas Premium</h3>
+                    <p>
+                        Materi eksklusif dan terstruktur. Kami menyajikan konten berkualitas tinggi yang dirancang
+                        khusus untuk membangun pemahaman mendalam, dengan kombinasi teori dan praktik yang seimbang.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <img src="https://img.icons8.com/ios-filled/100/certificate.png" alt="Certificate Icon">
+                    <h3>Sertifikat Resmi</h3>
+                    <p>
+                        Bukti kompetensi yang diakui. Setiap peserta yang menyelesaikan kursus akan mendapatkan
+                        sertifikat digital resmi yang bisa digunakan untuk portofolio kerja, LinkedIn, atau melamar
+                        pekerjaan.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>Apa Yang Mereka Katakan</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                    <p>"Perkenalkan, saya Abdul Ajis. Setelah mengikuti kursus komputer di B-One Komputer,
+                        saya memperoleh banyak pengetahuan baru, khususnya dalam penggunaan Ms. Office.
+                        Kursus ini sangat bermanfaat dan memberikan ilmu yang berguna untuk dunia kerja."</p>
+                    <h4>– Abdul Ajis –</h4>
+                </div>
+                <div class="testimonial">
+                    <p>Setelah mengikuti kursus di B-One Computer, saya mendapatkan ilmu yang sangat bermanfaat.
+                        Semoga B-One Computer terus berkembang dan maju dalam mencerdaskan anak bangsa.
+                        Terima kasih kepada Bang Bagus dan Pak Ipen, semoga menjadi amal jariyah di akhirat.</p>
+                    <h4>– Randi Karsono –</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Tempat pelatihan yang rekomendasi di Pekanbaru dengan tutor yang handal. Cocok banget buat para
+                        pemula yang ingin mahir dalam mengoperasikan komputer...</p>
+                    <h4>– Rahmi Yulinda –</h4>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            let current = 0;
+            const testimonials = document.querySelectorAll(".testimonial");
+            const total = testimonials.length;
+
+            setInterval(() => {
+                testimonials[current].classList.remove("active");
+                current = (current + 1) % total;
+                testimonials[current].classList.add("active");
+            }, 4000); // Slide every 4 seconds
+        </script>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <img src="img/logo.png" alt="Logo" class="footer-logo" />
+                <p>Platform edukasi terbaik untuk membangun keterampilan masa depan dengan teknologi dan kurikulum STEM
+                    terkini.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Kontak</h3>
+                <p>Email: b1computer@gmail.com</p>
+                <p>Telepon: +62 822 8364 2511</p>
+                <p>Alamat: Perumahan Villa Panam Jl. Melur, Sidomulyo Barat, Tampan, Pekanbaru City, Riau 28294</p>
+            </div>
+
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons">
+                    <a href="https://ww.facebook.com/kursuskoputerpekanbaru"><img
+                            src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
+                    <a href="https://www.instagram.com/b1comp/"><img
+                            src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" /></a>
+                    <a href="https://wa.me/6282283642511"><img
+                            src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="WhatsApp" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 B-One Computer. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

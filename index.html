@@ -13,7 +13,8 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo"></a>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" /></a>
+            <button class="hamburger">&#9776;</button> <!-- Hamburger button -->
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="aboutme.html">About Us</a>
@@ -105,19 +106,9 @@
                 </div>
             </div>
         </section>
-
-        <script>
-            let current = 0;
-            const testimonials = document.querySelectorAll(".testimonial");
-            const total = testimonials.length;
-
-            setInterval(() => {
-                testimonials[current].classList.remove("active");
-                current = (current + 1) % total;
-                testimonials[current].classList.add("active");
-            }, 4000); // Slide every 4 seconds
-        </script>
     </main>
+
+    <script src="script.js"></script>
 
     <footer class="footer">
         <div class="footer-container">

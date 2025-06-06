@@ -469,6 +469,7 @@ nav {
 }
 
 .faq-answer {
+    font-size: 14px;
     padding: 16px;
     background-color: #fff;
     display: none;

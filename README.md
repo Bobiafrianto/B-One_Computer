@@ -1,6 +1,6 @@
 # B-One Computer - Website Kursus
 
-Website ini merupakan situs promosi dan informasi kursus **B-One Computer** yang dirancang menggunakan HTML, CSS, dan JavaScript tanpa framework tambahan. Tujuan utama dari website ini adalah memberikan informasi kursus, menampilkan testimoni alumni, serta mempermudah proses pendaftaran melalui integrasi WhatsApp Business.
+Website ini dibuat untuk memenuhi tugas mata kuliah Web Development. Website ini merupakan situs promosi dan informasi kursus **B-One Computer** yang dirancang menggunakan HTML, CSS, dan JavaScript tanpa framework tambahan. Tujuan utama dari website ini adalah memberikan informasi kursus, menampilkan testimoni alumni, serta mempermudah proses pendaftaran melalui integrasi WhatsApp Business.
 
 ## 🖥️ Fitur Utama
 
